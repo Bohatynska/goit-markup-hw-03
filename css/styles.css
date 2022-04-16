@@ -137,7 +137,6 @@ button {
 }
 .banner-title {
   position: absolute;
-
   left: 452px;
   top: 280px;
   width: 696px;
@@ -382,35 +381,88 @@ button {
 /*-----------------PAGE2--------------*/
 /*-----------------HERO--------------*/
 /*-----------------HERO FILTERS------*/
+
+.container .projects {
+  width: 1200px;
+  padding-top: 94px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.projects {
+  margin: 0px;
+}
+.filters {
+  display: flex;
+  justify-content: center;
+}
 .filters {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: auto;
   color: #212121;
-  background-color: #f5f4fa;
 }
+.flt-btn {
+  display: block;
+  align-items: center;
+  margin: 0px 8px 0px 0px;
+}
+
 .filters-btn {
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
   cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  height: 38px;
+  width: max-content;
+}
+.filters-btn:not(:last-child) {
+  margin-left: 8px;
 }
 .filters-btn:hover,
 .filters-btn:focus {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: var(--footer-first-color);
 }
-
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin: 0px;
+}
+.projects-img {
+  padding-top: 30px;
+  margin-right: 30px;
+}
+.projects-img:nth-child(3n) {
+  margin-right: 0px;
+}
 /*-----------------MAIN------------------*/
 .text-item {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-top: 20px;
   color: var(--title-color);
 }
 .text-item-desk {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  padding-top: 4px;
+  padding-bottom: 20px;
   color: var(--text-color);
 }

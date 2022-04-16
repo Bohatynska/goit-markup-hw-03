@@ -30,10 +30,12 @@
           </a>
           <ul class="header-list">
             <li>
-              <a href="./index.html" class="header-link current">Студия</a>
+              <a href="./index.html" class="header-link">Студия</a>
             </li>
             <li>
-              <a href="./portfolio.html" class="header-link"> Портфолио</a>
+              <a href="./portfolio.html" class="header-link current">
+                Портфолио</a
+              >
             </li>
             <li><a href="" class="header-link">Контакты</a></li>
           </ul>
@@ -55,122 +57,130 @@
       </div>
     </header>
     <main>
-      <section>
-        <h1>Наши проекты</h1>
-        <ul class="filters">
-          <li>
-            <button type="button" class="filters-btn">Все</button>
-          </li>
-          <li>
-            <button type="button" class="filters-btn">Веб-сайты</button>
-          </li>
-          <li>
-            <button type="button" class="filters-btn">Приложения</button>
-          </li>
-          <li><button type="button" class="filters-btn">Дизайн</button></li>
-          <li>
-            <button type="button" class="filters-btn">Маркетинг</button>
-          </li>
-        </ul>
+      <section class="container">
+        <div class="projects">
+          <h1 class="visually-hidden">Наши проекты</h1>
+          <ul class="filters">
+            <li class="flt-btn">
+              <button type="button" class="filters-btn">Все</button>
+            </li>
+            <li class="flt-btn">
+              <button type="button" class="filters-btn">Веб-сайты</button>
+            </li>
+            <li class="flt-btn">
+              <button type="button" class="filters-btn">Приложения</button>
+            </li>
+            <li class="flt-btn">
+              <button type="button" class="filters-btn">Дизайн</button>
+            </li>
+            <li class="flt-btn">
+              <button type="button" class="filters-btn">Маркетинг</button>
+            </li>
+          </ul>
 
-        <ul class="image-list">
-          <li>
-            <img
-              class="image-item"
-              src="./images/portfolio/img-tech.jpg"
-              alt="Проект-1"
-              width="370"
-            />
-            <h2 class="text-item">Технокряк</h2>
-            <p class="text-item-desk">Веб-сайт</p>
-          </li>
-          <li>
-            <img
-              class="image-item"
-              src="./images/portfolio/img-poster-new.jpg"
-              alt="Проект-2"
-              width="370"
-            />
-            <h2 class="text-item">
-              Постер <span lang="en"> New Orlean vs Golden Star </span>
-            </h2>
-            <p class="text-item-desk">Дизайн</p>
-          </li>
-          <li>
-            <img
-              class="image-item"
-              src="./images/portfolio/img-resto.jpg"
-              alt="Проект-3"
-              width="370"
-            />
-            <h2 class="text-item">Ресторан <span lang="en">Seafood </span></h2>
-            <p class="text-item-desk">Приложение</p>
-          </li>
-          <li>
-            <img
-              class="image-item"
-              src="./images/portfolio/img-prime.jpg"
-              alt="Проект-4"
-              width="370"
-            />
-            <h2 class="text-item">Проект <span lang="en"> Prime</span></h2>
-            <p class="text-item-desk">Маркетинг</p>
-          </li>
-          <li>
-            <img
-              class="image-item"
-              src="./images/portfolio/img-boxes.jpg"
-              alt="Проект-5"
-              width="370"
-            />
-            <h2 class="text-item">Проект <span lang="en">Boxes</span></h2>
-            <p class="text-item-desk">Приложение</p>
-          </li>
-          <li>
-            <img
-              class="image-item"
-              src="./images/portfolio/img-inspiration.jpg"
-              alt="Проект-6"
-              width="370"
-            />
-            <h2 class="text-item">
-              <span lang="en"> Inspiration has no Borders </span>
-            </h2>
-            <p class="text-item-desk">Веб-сайт</p>
-          </li>
-          <li>
-            <img
-              class="image-item"
-              src="./images/portfolio/img-edition.jpg"
-              alt="Проект-7"
-              width="370"
-            />
-            <h2 class="text-item">
-              Издание <span lang="en">Limited Edition </span>
-            </h2>
-            <p class="text-item-desk">Дизайн</p>
-          </li>
-          <li>
-            <img
-              class="image-item"
-              src="./images/portfolio/img-lab.jpg"
-              alt="Проект-8"
-              width="370"
-            />
-            <h2 class="text-item">Проект <span lang="en"> LAB</span></h2>
-            <p class="text-item-desk">Маркетинг</p>
-          </li>
-          <li>
-            <img
-              class="image-item"
-              src="./images/portfolio/img-growing.jpg"
-              alt="Проект=9"
-              width="370"
-            />
-            <h2 class="text-item"><span lang="en">Growing Business </span></h2>
-            <p class="text-item-desk">Приложение</p>
-          </li>
-        </ul>
+          <ul class="image-list">
+            <li class="projects-img">
+              <img
+                class="image-item"
+                src="./images/portfolio/img-tech.jpg"
+                alt="Проект-1"
+                width="370"
+              />
+              <h2 class="text-item">Технокряк</h2>
+              <p class="text-item-desk">Веб-сайт</p>
+            </li>
+            <li class="projects-img">
+              <img
+                class="image-item"
+                src="./images/portfolio/img-poster-new.jpg"
+                alt="Проект-2"
+                width="370"
+              />
+              <h2 class="text-item">
+                Постер <span lang="en"> New Orlean vs Golden Star </span>
+              </h2>
+              <p class="text-item-desk">Дизайн</p>
+            </li>
+            <li class="projects-img">
+              <img
+                class="image-item"
+                src="./images/portfolio/img-resto.jpg"
+                alt="Проект-3"
+                width="370"
+              />
+              <h2 class="text-item">
+                Ресторан <span lang="en">Seafood </span>
+              </h2>
+              <p class="text-item-desk">Приложение</p>
+            </li>
+            <li class="projects-img">
+              <img
+                class="image-item"
+                src="./images/portfolio/img-prime.jpg"
+                alt="Проект-4"
+                width="370"
+              />
+              <h2 class="text-item">Проект <span lang="en"> Prime</span></h2>
+              <p class="text-item-desk">Маркетинг</p>
+            </li>
+            <li class="projects-img">
+              <img
+                class="image-item"
+                src="./images/portfolio/img-boxes.jpg"
+                alt="Проект-5"
+                width="370"
+              />
+              <h2 class="text-item">Проект <span lang="en">Boxes</span></h2>
+              <p class="text-item-desk">Приложение</p>
+            </li>
+            <li class="projects-img">
+              <img
+                class="image-item"
+                src="./images/portfolio/img-inspiration.jpg"
+                alt="Проект-6"
+                width="370"
+              />
+              <h2 class="text-item">
+                <span lang="en"> Inspiration has no Borders </span>
+              </h2>
+              <p class="text-item-desk">Веб-сайт</p>
+            </li>
+            <li class="projects-img">
+              <img
+                class="image-item"
+                src="./images/portfolio/img-edition.jpg"
+                alt="Проект-7"
+                width="370"
+              />
+              <h2 class="text-item">
+                Издание <span lang="en">Limited Edition </span>
+              </h2>
+              <p class="text-item-desk">Дизайн</p>
+            </li>
+            <li class="projects-img">
+              <img
+                class="image-item"
+                src="./images/portfolio/img-lab.jpg"
+                alt="Проект-8"
+                width="370"
+              />
+              <h2 class="text-item">Проект <span lang="en"> LAB</span></h2>
+              <p class="text-item-desk">Маркетинг</p>
+            </li>
+            <li class="projects-img">
+              <img
+                class="image-item"
+                src="./images/portfolio/img-growing.jpg"
+                alt="Проект=9"
+                width="370"
+              />
+              <h2 class="text-item">
+                <span lang="en">Growing Business </span>
+              </h2>
+              <p class="text-item-desk">Приложение</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <section>
