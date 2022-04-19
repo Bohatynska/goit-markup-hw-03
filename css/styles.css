@@ -432,17 +432,16 @@ img {
 .projects-img {
   margin-right: 30px;
   margin-bottom: 30px;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
 }
 .projects-img:nth-child(3n) {
   margin-right: 0px;
 }
 /*-----------------MAIN------------------*/
 .projects-text {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 .text-item {
   font-weight: 700;
@@ -456,6 +455,6 @@ img {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-
+  margin-bottom: 20px;
   color: var(--text-color);
 }
