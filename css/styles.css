@@ -31,7 +31,7 @@ button {
 }
 img {
   display: block;
-  max-width: 100pc;
+  max-width: 100%;
   height: auto;
 }
 /*---------------Header---------------*/
@@ -146,6 +146,7 @@ img {
   padding-bottom: 200px;
   background-color: #2f303a;
 }
+
 .banner-title {
   width: 696px;
   font-weight: 900;
@@ -167,6 +168,7 @@ img {
   margin-top: 30px;
   font-family: inherit;
   border-radius: 4px;
+  border: none;
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
@@ -239,8 +241,11 @@ img {
   padding-left: 0px;
 }
 
-.biz-img:not(:last-child) {
+.biz-img {
   flex-basis: calc((100%-60px) / 3);
+}
+
+.biz-img:not(:last-child) {
   margin-right: 30px;
 }
 /*-----------------TEAM--------------*/
@@ -254,25 +259,22 @@ img {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 94px;
-  padding-bottom: 94px;
+
+  padding-bottom: 50px;
   color: var(--title-color);
 }
 .team-item {
   display: flex;
 }
-.team-item {
-  flex-basis: calc((100% - 120px) / 4);
+.team-item :last-child {
+  margin-right: 0px;
+}
+.team-img {
   margin-right: 30px;
 }
-
-/* .team-img li:last-child {
-  margin-right: 0px;
-} */
-/* .team-text {
-  padding-top: 30px;
-  padding-bottom: 30px;
-} */
+.team-text {
+  padding: 30px 0px;
+}
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -299,7 +301,7 @@ img {
 }
 .footer-cont {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 .footer-logo {
   font-family: "Raleway";
@@ -320,7 +322,7 @@ img {
 }
 .footer-cont {
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
 }
 
 .footer-item {
@@ -382,6 +384,7 @@ img {
   display: flex;
   justify-content: center;
 }
+
 .filters {
   font-weight: 500;
   font-size: 16px;
@@ -428,7 +431,6 @@ img {
 .image-list li:nth-child(n + 6) {
   margin-bottom: 2px;
 }
-
 .projects-img {
   margin-right: 30px;
   margin-bottom: 30px;
@@ -438,7 +440,7 @@ img {
 }
 /*-----------------MAIN------------------*/
 .projects-text {
-  margin: 20px 24px;
+  padding: 20px 24px;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
@@ -448,6 +450,7 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  /* margin-top: 20px; */
   padding-bottom: 4px;
   color: var(--title-color);
 }
@@ -455,6 +458,5 @@ img {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  margin-bottom: 20px;
   color: var(--text-color);
 }
