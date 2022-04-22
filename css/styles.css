@@ -199,10 +199,9 @@ img {
 }
 
 .benefits-list {
-  flex-basis: calc((100% - 120px) / 4);
   margin-right: 30px;
 }
-.benefits-item li:last-child {
+.benefits-item :last-child {
   margin-right: 0px;
 }
 .benefits-title {
@@ -230,6 +229,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
+
   color: var(--title-color);
 }
 
@@ -260,7 +260,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
 
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   color: var(--title-color);
 }
 .team-item {
@@ -298,11 +298,9 @@ img {
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
-.footer-cont {
-  display: flex;
-  /* flex-direction: column; */
-}
+
 .footer-logo {
   font-family: "Raleway";
   font-style: normal;
@@ -318,13 +316,10 @@ img {
 }
 .footer-logo {
   text-decoration: none;
-  margin-bottom: 20px;
 }
-.footer-cont {
-  display: flex;
-  flex-direction: column;
+.footer-list {
+  margin-top: 20px;
 }
-
 .footer-item {
   font-style: normal;
   font-size: 14px;
@@ -369,9 +364,7 @@ img {
 .footer-tel:focus {
   color: var(--accent-color);
 }
-.footer-list {
-  padding-bottom: 60px;
-}
+
 .footer-list.link {
   text-decoration: none;
 }
